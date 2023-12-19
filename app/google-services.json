@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "417857669472",
+    "project_id": "dailytrack-2765c",
+    "storage_bucket": "dailytrack-2765c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:417857669472:android:ab9a0e01e35a282b37f605",
+        "android_client_info": {
+          "package_name": "com.example.dailytrack"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHvc9CCfy7CNZJDT_emhh5tCliGNt2XFk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<fragment xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/map"
+    android:name="com.google.android.gms.maps.SupportMapFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MapsActivity"
+    >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        >
+    <SearchView
+        android:id="@+id/searchBar"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:queryHint="search.."
+        android:iconifiedByDefault="false"
+        android:elevation="5dp"
+        android:background="@color/white"
+        android:layout_margin="10dp"
+
+        />
+    <TextView
+        android:id="@+id/radTv"
+        android:layout_width="wrap_content"
+        android:layout_height = "wrap_content"
+        android:text = "Enter Radius of Boundary"
+        android:textColor="#353247"
+        android:textStyle="bold"
+        android:layout_marginTop = "10dp"
+        android:textSize="18dp"
+        android:layout_below="@+id/searchBar"
+
+
+        />
+<EditText
+    android:id="@+id/rad"
+    android:layout_width="60dp"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:layout_marginLeft = "20dp"
+    android:paddingLeft="10dp"
+    android:background="#BEA2F1"
+    android:textColor="@color/black"
+    android:text="200"
+    android:drawablePadding="10dp"
+    android:ems="10"
+    android:hint="radius"
+    android:inputType="numberSigned"
+    android:layout_below="@+id/radTv"
+
+    />
+
+    </RelativeLayout>
+
+</fragment>
